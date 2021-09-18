@@ -1,7 +1,13 @@
+import './app.css'
 function App() {
+  const c="Achyuth"
   return (
-    <h1>Hello World</h1>
-  );
+    <div>
+    <h1 className='hello'>Hello World</h1>
+    <p>This is {c}</p>
+    
+    </div>
+    );
 }
 
 export default App;
