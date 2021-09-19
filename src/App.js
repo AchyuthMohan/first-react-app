@@ -1,13 +1,16 @@
 import './app.css'
+import Header from './components/header';
 function App() {
   const c="Achyuth"
   return (
     <div>
-    <h1 className='hello'>Hello World</h1>
+     <Header c={c} />
     <p>This is {c}</p>
+    
     
     </div>
     );
 }
+
 
 export default App;
